@@ -35,14 +35,14 @@ const Footer = () => {
             <i class="bx bxl-instagram"></i>
           </a>
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/in/arash-ghezavati/"
             className="footer__social-link"
             target="_blank"
           >
             <i class="bx bxl-linkedin"></i>
           </a>
           <a
-            href="https://github.com/"
+            href="https://github.com/arashghezavati"
             className="footer__social-link"
             target="_blank"
           >

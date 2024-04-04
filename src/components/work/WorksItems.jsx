@@ -170,7 +170,7 @@ const WorksItems = ({ item }) => {
 //             src={item.images[currentIndex]} 
 //             alt="" 
 //             className="work__img" 
-//             style={{ height: item.category === "web" ? "200px" : "auto" }} // Apply fixed height for "web" category
+//             style={{ height: item.category === "web" ? "200px" : "auto" }} 
 //           />
 //           <div className='slide__btn'>
 //            <button className="prev" onClick={prevSlide}>&#10094;</button>

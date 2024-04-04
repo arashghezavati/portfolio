@@ -28,10 +28,6 @@ import cosmos7 from "../../assets/cosmos/cosmos7.jpg";
 
 import peopleCar from "../../assets/peeopleCar/peopleCar.png";
 
-// import Work2 from "../../assets/work2.jpg";
-// import Work3 from "../../assets/work3.jpg";
-// import Work4 from "../../assets/work4.jpg";
-// import Work5 from "../../assets/work5.jpg";
 
 export const projectsData = [
   {
@@ -53,12 +49,21 @@ export const projectsData = [
     url : "https://cafe-arash.netlify.app",
     github: "https://github.com/arashghezavati/cafe"
   },
+  {
+    id: 6,
+    images: [peopleCar],
+    title: "People & Cars React Apollo GraphQL",
+    test: "The goal of putting this project with simple design on my portfolio is to show my skills in GraphQL, Apollo, and React.",
+github:"https://github.com/arashghezavati/PEOPLE-AND-THEIR-CARS",
+    category: "web",
+    url : ""
+  },
     {
       id: 1,
       title: "Smart Pack",
       category: "web",
       images: [samrt1, samrt2, samrt3, samrt4, samrt5],
-      test: "This is our second semester group project which is designed simply and develped with pure HTML, CSS, and JavaScript.",
+      test: "This is our second semester group project which is designed simply and developed with pure HTML, CSS, and JavaScript.",
 github:"https://github.com/harnoor497/IntegratedProject",
       url : ""
     },
@@ -82,15 +87,7 @@ github:"https://github.com/Team-Cosmos-WMDD-4985",
       category: "app",
       url : "https://my-guru.ca/"
     },
-    {
-      id: 6,
-      images: [peopleCar],
-      title: "People & Cars React Apollo GraphQL",
-      test: "The goal of putting this project with simple design on my portfolio is to show my skills in GraphQL, Apollo, and React.",
-github:"https://github.com/arashghezavati/PEOPLE-AND-THEIR-CARS",
-      category: "web",
-      url : ""
-    },
+    
     
   ];
 

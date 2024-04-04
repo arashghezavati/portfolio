@@ -40,7 +40,8 @@ export const projectsData = [
     category: "web",
     images: [loanEase1, loanEase2, loanEase3, loanEase4],
     test: "LoanEase is a loan management system that helps students to find and apply for loans. The website is created using React, Node.js, and MongoDB.",
-    url : "https://loanease.ca/"
+    url : "https://loanease.ca/",
+    github: "https://github.com/arashghezavati/loanEase"
   },
   {
     id: 3,
@@ -49,7 +50,8 @@ export const projectsData = [
     category: "web",
     test: "This is a bakery cafe website that is created using React. The website is designed to showcase the bakery's products and services.",
 
-    url : "https://smartpack.com.ng"
+    url : "https://cafe-arash.netlify.app",
+    github: "https://github.com/arashghezavati/cafe"
   },
     {
       id: 1,
@@ -57,8 +59,8 @@ export const projectsData = [
       category: "web",
       images: [samrt1, samrt2, samrt3, samrt4, samrt5],
       test: "This is our second semester group project which is designed simply and develped with pure HTML, CSS, and JavaScript.",
-
-      url : "https://smartpack.com.ng"
+github:"https://github.com/harnoor497/IntegratedProject",
+      url : ""
     },
    
   
@@ -67,27 +69,27 @@ export const projectsData = [
       images: [movie1, movie2, movie3, movie4],
       title: "React Native Movies App",
       test: "This app is created using React Native and the Movie Database API. The app allows users to search for movies, view movie details, and search for movies by name",
-
+github:"https://github.com/arashghezavati/React-Native-Movies-App",
       category: "app",
-      url : "https://smartpack.com.ng"
+      url : ""
     },
     {
       id: 5,
       images: [cosmos1, cosmos2, cosmos3, cosmos4, cosmos5, cosmos6, cosmos7],
       title: "React native Cosmos App",
       test: "This is our final project for the web and Mobile App Development program. React native, node.js, mongoDb and express are used to develop this app. we use jwt for authentication, AWS S3 for image, EC2 for hosting,Nginx as a reverse proxy and PM2 for process management.",
-
+github:"https://github.com/Team-Cosmos-WMDD-4985",
       category: "app",
-      url : "https://smartpack.com.ng"
+      url : "https://my-guru.ca/"
     },
     {
       id: 6,
       images: [peopleCar],
       title: "People & Cars React Apollo GraphQL",
       test: "The goal of putting this project with simple design on my portfolio is to show my skills in GraphQL, Apollo, and React.",
-
+github:"https://github.com/arashghezavati/PEOPLE-AND-THEIR-CARS",
       category: "web",
-      url : "https://smartpack.com.ng"
+      url : ""
     },
     
   ];

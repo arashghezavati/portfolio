@@ -156,6 +156,12 @@ const WorksItems = ({ item }) => {
     }
   };
 
+  const handleGithubClick = () => {
+    if (item && item.github) {
+      window.location.href = item.github; 
+    }
+  }
+
   return (
 //     <div className="work__card" key={item.id}>
 //       {item && item.images && item.images.length > 0 && (
@@ -201,9 +207,14 @@ const WorksItems = ({ item }) => {
   )}
   
   <h3 className="work__title">{item.title}</h3>
+  <div style={{display:"flex", justifyContent:"space-between", alignItems:"center"}}>
+  <button className="work__button" onClick={handleGithubClick} >
+    Github <i className="bx bx-right-arrow-alt work__button-icon"></i>
+  </button>
   <button className="work__button" onClick={handleDemoClick}>
     Demo <i className="bx bx-right-arrow-alt work__button-icon"></i>
   </button>
+  </div>
 </div>
   );
 };
